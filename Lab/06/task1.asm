@@ -4,7 +4,6 @@ main PROC
     mov eax, 0          
     mov ebx, 1          
     mov ecx, 10         
-
 L1:
     call WriteDec       
     call Crlf           
