@@ -25,3 +25,7 @@ END main
 ; Output
 ; EAX = 150
 ; sum = 150
+
+;✅ Uses Indexed Addressing ([ESI])
+;✅ Implements Scale Factor (TYPE arrayD)
+;✅ Loop Iterates Correctly Using LENGTHOF
