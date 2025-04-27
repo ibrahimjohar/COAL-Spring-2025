@@ -8,3 +8,18 @@
 ![image](https://github.com/user-attachments/assets/bb8237ec-2fbc-4ada-ac5c-06b3bdeb98f9)
 
 ## task 3
+![image](https://github.com/user-attachments/assets/3ecb828e-2680-4589-b5ff-0e859e1aa287)
+
+## task 4
+
+
+## task 5
+
+
+## task 6
+
+
+## task 7
+
+
+## task 8
