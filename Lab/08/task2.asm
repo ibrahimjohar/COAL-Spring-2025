@@ -14,17 +14,17 @@ find:
 	jne found
 
 	add esi, 2
-  loop find
+  	loop find
 
-  ;loop finished & no non-zero value found
-  mov edx, OFFSET msg2
-  call WriteString
-  jmp callend
+  	;loop finished & no non-zero value found
+  	mov edx, OFFSET msg2
+  	call WriteString
+  	jmp callend
 
 found:
-  mov edx, OFFSET msg1
-  call WriteString
-  call WriteInt
+  	mov edx, OFFSET msg1
+  	call WriteString
+  	call WriteInt
 
 callend:
 	exit
