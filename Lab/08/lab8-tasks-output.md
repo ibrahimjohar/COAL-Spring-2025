@@ -14,7 +14,8 @@
 ![image](https://github.com/user-attachments/assets/01ee89d5-908f-4460-875c-3c178c15ab2e)
 
 ## task 5
-
+![image](https://github.com/user-attachments/assets/00908621-3bf9-428b-9dc2-2b394bf84127)
+![image](https://github.com/user-attachments/assets/c9e7721b-afe4-43ba-a43a-4efad4fbe266)
 
 ## task 6
 
