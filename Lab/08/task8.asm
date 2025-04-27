@@ -9,7 +9,7 @@ main PROC
     call WriteString
     call ReadChar
     call WriteChar
-	call Crlf
+    call Crlf
 
     ;check if AL is btw 'A' & 'Z'
 
