@@ -24,3 +24,7 @@
 ![image](https://github.com/user-attachments/assets/7292ff40-0000-4acb-bfaf-889f6fec0e65)
 
 ## task 8
+![image](https://github.com/user-attachments/assets/48f12fec-d23c-45b2-9d74-d47ace511778)
+![image](https://github.com/user-attachments/assets/4c50f82e-7de5-4268-8ec7-bcd861e183a4)
+![image](https://github.com/user-attachments/assets/2f2866ae-5b61-4488-aa48-7b03a67c3068)
+
