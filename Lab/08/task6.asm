@@ -38,6 +38,10 @@ noSwap:
 	mov ecx, n
 	mov edi, 0
 
+	mov edx, OFFSET msg0
+	call WriteString
+	call Crlf
+
 printloop:
 	movzx eax, WORD PTR arr[edi]
 	call WriteDec
