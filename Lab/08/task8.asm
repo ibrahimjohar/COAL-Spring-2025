@@ -38,7 +38,7 @@ is_alphabet:
     call WriteString
     call Crlf
 
-callend:
-	exit
+called:
+    exit
 main ENDP
 END main
