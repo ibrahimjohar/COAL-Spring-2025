@@ -10,10 +10,11 @@ start1:
     add eax, 1
     cmp eax, 9
     call DumpRegs
-    JE endd
-    jmp start1
+    JE endd         ;jump to end if the condition is met eax==9
+    jmp start1      ;otherwise continue loop back to pointing 'start1'
 
 endd:
     exit
 main ENDP
 END main
+
