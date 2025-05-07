@@ -24,3 +24,24 @@ next:
     exit
 main ENDP
 END main
+
+;When implementing the logical OR operator in compound expression, if the
+;first expression is true, the second expression is skipped.
+
+;if (al > bl) OR (bl > cl)
+;   X = 1;
+
+include irvine32.inc
+.data
+.code
+main PROC
+    cmp al, bl
+    ja L1           ;if yes(true)
+    cmp bl, cl      ;no: is bl > cl?
+    jbe next        ;no: skip next statement
+L1:
+    mov x, 1
+next:
+    exit
+main ENDP
+END main
