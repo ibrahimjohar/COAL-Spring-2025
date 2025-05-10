@@ -21,7 +21,6 @@ main PROC
     mov ebx, offset result 
     
     call Extended_Add
-
     mov eax, DWORD PTR [result+4]  
     call WriteHex
     mov eax, DWORD PTR [result]    
