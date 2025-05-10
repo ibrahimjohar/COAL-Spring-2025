@@ -1,9 +1,7 @@
 INCLUDE Irvine32.inc
-
 .data
     arr DWORD 10 DUP(?)
     multiplier DWORD 6
-
 .code
 Load PROC
     push ebp
