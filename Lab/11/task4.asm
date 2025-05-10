@@ -2,7 +2,6 @@
 .model flat, stdcall
 .stack 4096
 INCLUDE Irvine32.inc
-
 .data
     val1    SDWORD 20      
     val2    SDWORD 10
