@@ -39,6 +39,7 @@ main PROC
     mov edx, OFFSET str1
     call WriteString
     call Crlf
+
     exit
 main ENDP
 END main
