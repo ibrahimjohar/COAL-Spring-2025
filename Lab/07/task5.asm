@@ -1,33 +1,32 @@
 include irvine32.inc
 .data
     n DWORD ?
-    sum DWORD ?
+    msg byte "enter a num: ", 0
+    msg2 byte "sum of numbers from 1 till your num: ", 0
 .code
-sumToN PROC
-    mov ecx, n
-    xor eax, eax
-
-loop1:
-    add eax, ecx
-    loop loop1
-
-    mov sum, eax
-    ret
-sumToN ENDP
-
 main PROC
-    ;take input n
-    mov edx, OFFSET n
-    call ReadInt
-    mov n, eax
-
-    call sumToN
-
-    ;result
-    mov eax, sum
-    call WriteDec
-    call Crlf
-
+    mov edx, offset msg
+    call writestring
+    call readdec
+    call sumN
+    mov edx, offset msg2
+    call writestring
+    call writedec
     exit
 main ENDP
+
+sumN PROC
+    push ecx
+    push ebx
+    mov ecx, eax
+    mov eax, 0
+    mov ebx, 1
+L1:
+    add eax, ebx
+    inc ebx
+    loop L1
+    pop ebx
+    pop ecx
+    ret
+sumN ENDP
 END main
