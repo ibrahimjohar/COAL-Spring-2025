@@ -6,7 +6,6 @@ include irvine32.inc
 main PROC
     mov ax, 1010101010101011b
     mov bx, 1010101010101010b
-    
     mov edx, offset str_before
     call writestring
     movzx eax, ax
