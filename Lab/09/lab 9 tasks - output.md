@@ -1,4 +1,5 @@
 ## task 1
+![image](https://github.com/user-attachments/assets/b0ec4016-a2c9-4ac5-99e4-75fbdf35bc5d)
 
 ## task 2
 ![image](https://github.com/user-attachments/assets/7b5bd032-e4ff-4cab-95e6-105aca69c0fa)
