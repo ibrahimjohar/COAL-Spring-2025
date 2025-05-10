@@ -4,9 +4,9 @@
 INCLUDE Irvine32.inc
 
 .data
-    str1 BYTE '127&j~3#^&*#*#45^',0
-    foundMsg BYTE "Found at index: ",0
-    notFoundMsg BYTE "Not found",0
+    str1 BYTE '127&j~3#^&*#*#45^', 0
+    foundMsg BYTE "Found at index: ", 0
+    notFoundMsg BYTE "Not found", 0
 .code
 Scan_String PROC
     ;args:
