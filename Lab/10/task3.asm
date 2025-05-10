@@ -1,4 +1,4 @@
-INCLUDE irvine32.inc
+INCLUDE Irvine32.inc
 
 .data
     str1 BYTE "coal lab 10 task 3", 0
@@ -9,27 +9,27 @@ INCLUDE irvine32.inc
 .code
 IsCompare PROC
     push ebp
-    mov ebp,esp
-    mov esi,[ebp+8]
-    mov edi,[ebp+12]
+    mov ebp, esp
+    mov esi, [ebp+8]
+    mov edi, [ebp+12]
     
 comparisionLoop:
-    mov al,[esi]
-    mov bl,[edi]
-    cmp al,bl
+    mov al, [esi]
+    mov bl, [edi]
+    cmp al, bl
     jne not_equal
-    cmp al,0
+    cmp al, 0
     je equal
     inc esi
     inc edi
     jmp comparisionLoop
     
 equal:
-    mov edx,OFFSET equalMsg
+    mov edx, OFFSET equalMsg
     jmp displayMsg
     
 not_equal:
-    mov edx,OFFSET notEqualMsg
+    mov edx, OFFSET notEqualMsg
     
 displayMsg:
     call WriteString
