@@ -3,6 +3,7 @@
 ## task 2
 
 ## task 3
+![image](https://github.com/user-attachments/assets/0e0386f9-5fd1-42bb-bb19-4ac681e1f69e)
 
 ## task 4
 ![image](https://github.com/user-attachments/assets/0732df50-a3c8-443a-a22b-0dc594675bbe)
